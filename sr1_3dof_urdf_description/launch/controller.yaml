@@ -17,3 +17,7 @@ sr1_3dof_urdf_controller:
     type: effort_controllers/JointPositionController
     joint: joint1
     pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev42_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev42
+    pid: {p: 100.0, i: 0.01, d: 10.0}

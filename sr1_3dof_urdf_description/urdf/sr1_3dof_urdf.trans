@@ -34,4 +34,15 @@
   </actuator>
 </transmission>
 
+<transmission name="Rev42_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Rev42">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Rev42_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
 </robot>

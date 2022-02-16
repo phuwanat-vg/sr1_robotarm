@@ -162,7 +162,7 @@ class IKFastKinematicsPlugin : public kinematics::KinematicsBase
 
   // The ikfast and base frame are the start and end of the kinematic chain for which the
   // IKFast analytic solution was generated.
-  const std::string IKFAST_TIP_FRAME_ = "Pointer_v2_1";
+  const std::string IKFAST_TIP_FRAME_ = "servo_gripper_1";
   const std::string IKFAST_BASE_FRAME_ = "base_link";
 
   // prefix added to tip- and baseframe to allow different namespaces or multi-robot setups

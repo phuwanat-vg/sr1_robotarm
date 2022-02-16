@@ -6,7 +6,7 @@ robot_name=sr1_3dof_urdf
 planning_group_name=arm_group
 ikfast_plugin_pkg=sr1_3dof_urdf_arm_group_ikfast_plugin
 base_link_name=base_link
-eef_link_name=Pointer_v2_1
+eef_link_name=servo_gripper_1
 ikfast_output_path=/home/vm20/rb_ws/src/sr1/sr1_3dof_urdf_description/urdf/sr1_3dof_urdf_arm_group_ikfast_plugin/src/sr1_3dof_urdf_arm_group_ikfast_solver.cpp
 
 rosrun moveit_kinematics create_ikfast_moveit_plugin.py\

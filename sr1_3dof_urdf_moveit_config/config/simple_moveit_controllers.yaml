@@ -7,3 +7,9 @@ controller_list:
       - joint1
       - joint2
       - joint3
+  - name: gripper_group_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - Rev42
